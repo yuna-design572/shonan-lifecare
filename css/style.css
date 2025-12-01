@@ -215,4 +215,80 @@ footer{
   .sp-br{
   display: none;
 }
+header a{
+  font-size: 5rem;
+  display: flex;
+  justify-content: center;
+}
+/* home */
+.home img{
+  width: 3000px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+h1{
+  font-size: 4rem;
+}
+.home h2{
+  font-size: 2rem;
+  margin-bottom: 6rem;
+}
+.heading-large{
+  font-size: 3rem;
+  margin: 2rem 0;
+}
+.concept-item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.concept img{
+  width: 600px;
+  height: auto;
+  border-radius: 16px;
+}
+/* gallery */
+.gallery-scroll{
+  justify-content: center;
+}
+.gallery h3{
+  font-size: 2.2rem;
+}
+.gallery li{
+  font-size: 1.4rem;
+  line-height: 2;
+  display: flex;
+  justify-content: center;
+}
+.gallery li::before{
+  content: "〇 ";
+}
+.gallery p{
+  text-align: center;
+  font-size: 1.2rem;;
+}
+/* contact */
+.contact h3{
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+.phone{
+  margin-top: 2rem;
+}
+.contact-btn{
+  font-size: 2rem;
+  width: 500px;
+}
+.contact p{
+  text-align: center;
+  margin-bottom: 2rem;
+}
+/* footer */
+footer{
+  font-size: 1.4rem;
+}
+.name{
+  font-size: 1.8rem;
+}
 }
