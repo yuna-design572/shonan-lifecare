@@ -247,6 +247,9 @@ header a{
   display: flex;
   justify-content: center;
 }
+.main-nav a{
+  font-size: 20px;
+}
 /* home */
 .home img{
   width: 3000px;
