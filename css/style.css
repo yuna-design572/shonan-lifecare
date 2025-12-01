@@ -1,0 +1,218 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+html{
+    font-size: 100%;
+    scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Shippori Mincho", serif;
+  line-height: 1.7;
+  color: #000000;
+  padding: 0 1rem;
+}
+
+
+hr{
+    color: #C8A45A;
+    width: 290px;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+.logo img {
+  display: block;
+  max-width: 60px;
+  height: auto;
+  margin-left: 20px;
+}
+
+/* menu-span */
+.main-nav li{
+  list-style: none;
+}
+nav {
+  position: fixed;   /* ← 追加！ */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  display: none;
+  background: #ffffff;
+  z-index: 1200;
+  padding-top: 2rem;
+}
+
+nav.active {
+  display: block;
+}
+
+.hamburger {
+  display: block;
+  cursor: pointer;
+  width: 30px;
+  height: 22px;
+  position: fixed;
+  right: 20px;
+  top: 20px;
+  z-index: 2000;
+}
+
+.hamburger span {
+  display: block;
+  height: 3px;
+  background-color: #000000;
+  margin: 5px 0;
+  transition: .3s;
+}
+
+.main-nav a {
+  display: block;
+  padding: 1rem;
+  font-size: 14px;
+  color: #4a3b33;
+  text-decoration: none;
+  font-weight: 600;
+  text-align: center;
+}
+header a{
+    font-size: 2.7rem;
+    padding: 1rem 0 2rem;
+}
+/* home */
+.home{
+    text-align: center;
+    margin-bottom: 3rem;
+}
+h1{
+    font-size: 2rem;
+    padding: 1rem 0;
+}
+h2{
+    font-size: 1rem;
+}
+/* concept */
+.heading-large{
+    font-size: 1.5rem;
+    padding: 1rem 0;
+    text-align: center;
+}
+.concept p{
+    padding: 1rem 2rem;
+    line-height: 1.7;
+}
+/* gallery */
+.gallery-scroll {
+  display: flex;
+  gap: 16px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  padding: 8px 0;
+}
+
+.gallery-item {
+  flex: 0 0 300px;
+  border-radius: 8px;
+  overflow: hidden;
+  scroll-snap-align: start;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.gallery p{
+    padding: 1rem 2rem;
+    line-height: 1.7;
+}
+.gallery h3{
+    text-align: center;
+    padding: 1rem 0;
+}
+.gallery li{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+}
+.gallery p{
+    font-size: 14px;
+}
+/* contact */
+.contact h3{
+    text-align: center;
+    font-size: 16px;
+}
+
+.phone{
+    font-size: 2rem;
+    text-align: center;
+    padding: 1rem 0;
+}
+.contact-btn{
+    background-color: #3DE093;
+    border-radius: 16px;
+    padding: 10px 20px;
+    width: 300px;
+    text-align: center;
+    margin: 0 auto;
+
+}
+.to-top {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  color: #111;
+  font-size: 2rem;
+  font-weight: 600;
+  padding: 0.6rem 1rem;
+  border-radius: 8px;
+  text-decoration: none;
+  opacity: 0.8;
+  transition: 0.3s;
+  z-index: 100;
+}
+/* footer */
+footer{
+    text-align: center;
+    margin-top: 3rem;
+}
+/* スマホ */
+@media (max-width: 768px) {
+  
+  
+  .gallery {
+    padding: 48px 0;
+  }
+
+  .gallery__item {
+    width: 220px;
+    border-radius: 6px;
+  }
+}
+
+
+@media (min-width: 769px) {
+  .sp-br{
+  display: none;
+}
+}
