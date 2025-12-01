@@ -318,4 +318,11 @@ footer{
 .name{
   font-size: 1.8rem;
 }
+hr{
+    width: 290px;
+    margin: 0 auto;
+    margin-top: 2rem;
+    border-bottom: 1px solid #3DE093;
+    width: 80%;
+}
 }
