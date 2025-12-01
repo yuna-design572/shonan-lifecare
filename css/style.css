@@ -34,7 +34,7 @@ body {
 
 
 hr{
-    color: #C8A45A;
+    color: #3DE093;
     width: 290px;
     margin: 0 auto;
     margin-top: 2rem;
@@ -157,6 +157,7 @@ h2{
 .gallery p{
     font-size: 14px;
 }
+
 /* contact */
 .contact h3{
     text-align: center;
@@ -175,6 +176,10 @@ h2{
     width: 300px;
     text-align: center;
     margin: 0 auto;
+    margin-top: 2rem;
+}
+.contact p{
+  text-align: center;
 
 }
 .to-top {
